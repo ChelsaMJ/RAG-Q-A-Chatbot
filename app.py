@@ -2,8 +2,8 @@ import streamlit as st
 from rag_utils import load_and_chunk_data, build_faiss_index, generate_answer
 from sklearn.metrics.pairwise import cosine_similarity
 
-st.set_page_config(page_title="Loan Approval RAG Chatbot")
-st.title("Loan Approval RAG Chatbot")
+st.set_page_config(page_title="Loan Approval Assistant")
+st.title("Loan Approval Assistant")
 
 @st.cache_resource
 def setup_rag():
